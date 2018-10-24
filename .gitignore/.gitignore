@@ -1,0 +1,29 @@
+public class aaa
+{
+    aaa()
+    {
+System.out.print("hello method set");
+System.out.println("Base chala");
+    
+    }
+}
+public class bbb
+{
+    public void setcode()
+    {
+    aaa a;
+    a=new aaa();
+    }
+
+        
+}
+
+ public class ccc
+{
+    public static void main(Strings gg[])
+    {
+       bbb b=new bbb();
+       b.setcode();
+       System.out.println("Bombay");
+    }
+}
